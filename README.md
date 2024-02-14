@@ -1,5 +1,5 @@
 # 🪞 Generative Reflections
-A two-model system for reasonable text generation
+A two-model system for reasonable text generation (via vector scoring)
 
 ## Overview
 
@@ -7,9 +7,15 @@ A two-model system for reasonable text generation
 
 This repo demonstrates how to use two language models (LMs) to achieve more lucid and coherent text generations.
 
-## Sample Result (Generating ML Ideas)
+## Sample Results (Generating ML Ideas)
 
-![alt text](results.png)
+*...these best scoring texts are given output priority:*
+
+![Best Results](results_best.png)
+
+*...these worst scoring ones get filtered out:*
+
+![Worst Results](results_worst.png)
 
 ## Models
 1. `Causal-LM` for text generation (e.g. [`distilgpt2`](https://huggingface.co/distilbert/distilgpt2))
