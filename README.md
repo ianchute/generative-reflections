@@ -1,13 +1,15 @@
 # 🪞 Generative Reflections
 A two-model system for reasonable text generation
 
-![alt text](results.png)
-
 ## Overview
 
 *"Think before you speak"*
 
 This repo demonstrates how to use two language models (LMs) to achieve more lucid and coherent text generations.
+
+## Sample Result (Generating ML Ideas)
+
+![alt text](results.png)
 
 ## Models
 1. `Causal-LM` for text generation (e.g. [`distilgpt2`](https://huggingface.co/distilbert/distilgpt2))
