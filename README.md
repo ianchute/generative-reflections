@@ -1,7 +1,7 @@
 # 🪞 Generative Reflections
 A two-model system for reasonable text generation
 
-*By: Ian Chu Te*
+![alt text](results.png)
 
 ## Overview
 
