@@ -11,11 +11,11 @@ This repo demonstrates how to use two language models (LMs) to achieve more luci
 
 *...these best scoring texts are given output priority:*
 
-![Best Results](results_best.png)
+![Best Results](r_best.png)
 
 *...these worst scoring ones get filtered out:*
 
-![Worst Results](results_worst.png)
+![Worst Results](r_worst.png)
 
 ## Models
 1. `Causal-LM` for text generation (e.g. [`distilgpt2`](https://huggingface.co/distilbert/distilgpt2))
